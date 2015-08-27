@@ -1,5 +1,7 @@
 import os
 
+# http://apple.stackexchange.com/questions/36943/how-do-i-automate-a-key-press-in-applescript
+
 templ_keystroke = """osascript -e 'tell application "System Events" to keystroke "{key}"{modifiers}'"""
 templ_keycode = """osascript -e 'tell application "System Events" to key code {key}{modifiers}'"""
 
