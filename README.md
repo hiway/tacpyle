@@ -14,7 +14,7 @@ def fader(value):
 tacpyle_app()
 ```
 
-## Imports
+## Explanation
 
 `from tacpyle.app import tacpyle_app, callback`
 
