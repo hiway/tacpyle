@@ -43,8 +43,8 @@ def register_callback(method, note, range=127):
         _callbacks[note] = []
 
     _callbacks[note].append(dict(method=method, range=range, last_callback_value=0))
-    print _callbacks
 
 
-def tacpyle_app(port=0):
+
+def tacpyle_app():
     start_listening(callback_method=_midi_callback)
