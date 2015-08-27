@@ -30,3 +30,23 @@ tacpyle_app()
 
 You can name this function whatever you want, it needs to accept one  argument - `value`, this value is within the range specified in the decorator.
 
+## One more example :)
+
+```
+@callback(note=72, range=10)
+def say_hello(value):
+    messages = [
+        'hi',
+        'hello',
+        'well, hello there',
+        'hello again',
+        'i see you are still here',
+        'yes?',
+        'no',
+        'stop',
+        'go away',
+        'shoo!',    
+        'outta here!',
+    ]
+    print messages[value]
+```
